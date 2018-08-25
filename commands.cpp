@@ -18,11 +18,11 @@ CMD_STR(help,"Displays this message");
 CMD_STR(version,"Displays the firmware version");
 CMD_STR(syslog, "turns on/off syslogging");
 CMD_STR(boot, "Enters the bootloader");
-CMD_STR(M100, "M100 xx – Turns FET output on where xx is 0-15");
-CMD_STR(M101, "M100 xx – Turns FET output off where xx is 0-15");
-CMD_STR(M102, "M102 xx ddd – Turns FET output xx (0-15) on with ddd (0-100) duty cycle");
+CMD_STR(M100, "M100 xx â€“ Turns FET output on where xx is 0-15");
+CMD_STR(M101, "M101 xx â€“ Turns FET output off where xx is 0-15");
+CMD_STR(M102, "M102 xx ddd â€“ Turns FET output xx (0-15) on with ddd (0-100) duty cycle");
 CMD_STR(M104, "M104 xx - Turns FET xx (0-15) on for 100us then back off");
-CMD_STR(M106, "M106 ii – Reads Digital input ii (0-5) which are inputs D0-D5 on PCB");
+CMD_STR(M106, "M106 ii â€“ Reads Digital input ii (0-5) which are inputs D0-D5 on PCB");
 
 
 //List of supported commands
